@@ -1,17 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!--
+  O atributo global lang ajuda a definir o idioma de um elemento: 
+  a língua em que elementos não-editáveis são escritos,
+   ou a língua em que elementos editáveis devem ser escritos pelo usuário.
+    O atributo contém uma uma única “tag de idioma” em um formato definido em Tags para identificar linguagens(BCP47).-->
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
+<head> <!--A tag head faz parte da estrutura básica do documento,
+   sua finalidade é definir o cabeçalho do documento com informações que não serão exibidas dentro do conteúdo da página.-->
+  <meta charset="utf-8" /> <!--A tag meta charset=”UTF-8″ é uma tag meta utilizada para comunicar aos navegadores qual é o formato de codificação de caracteres utilizado naquele documento.-->
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <!--O viewport é a área onde seu website aparece. É a área branca da janela quando você abre o browser. O viewport sempre vai ter o tamanho da janela. 
+    Mas a forma como os elementos são renderizados vai depender bastante do dispositivo. -->
+  <meta name="theme-color" content="#000000" /> 
+  <!--O theme-colorvalor do nameatributo do <meta>elemento indica uma cor sugerida que os agentes do usuário devem usar
+     para personalizar a exibição da página ou da interface do usuário ao redor.
+     Se especificado, o contentatributo deve conter um CSS válido <color>.-->
   <meta name="description" content="Web site created using create-react-app" />
+  <!--Uma meta descrição é um elemento no código HTML de uma página da Web que fornece uma breve descrição do conteúdo dessa página. 
+    Embora os visitantes de um site não possam vê-lo diretamente, 
+    mecanismos de pesquisa como o Google o usam para exibir uma página da Web nos resultados de pesquisa:-->
   <title>React App</title>
+  <!--titudo da aplicação -->
 </head>
 
-<body>
+<body> <!--O elemento <body> do HTML representa o conteúdo de um documento HTML.-->
   <noscript>You need to enable JavaScript to run this app.</noscript>
+  <!--O Elemento HTML <noscript> 
+    define uma seção de html a ser inserida se um tipo de script não é suportado pela página
+     ou se o script está desativado no navegador.
+    Aqui é necessario habilitar o JavaScript para executar esse aplicativo -->
   <div id="root"></div>
+  <!---chamamos de nó raiz do DOM porque tudo dentro dele será gerenciado pelo React DOM.
+  Aplicações construídas apenas com React geralmente tem apenas um único nó raiz no DOM. 
+  Se deseja integrar o React a uma aplicação existente, 
+  você pode ter quantos nós raiz precisar.-->
 </body>
 
 </html>
